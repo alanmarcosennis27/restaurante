@@ -1,0 +1,56 @@
+
+.parr-history{
+    
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    text-align: justify;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.animation{
+        background-color: beige;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        background-image: url('https://thumbs.dreamstime.com/b/pizza-original-cl%C3%A1sica-italiana-fresca-aislada-en-blanco-80933556.jpg');
+        background-size: cover;
+        position: relative;
+        animation: rotate 2s infinite;
+        border-radius: 100%;
+ 
+}
+@keyframes pizza-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+    
+  }
+  .restaurant-logo {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-image: url('https://thumbs.dreamstime.com/b/pizza-original-cl%C3%A1sica-italiana-fresca-aislada-en-blanco-80933556.jpg');
+    background-size: cover;
+    animation: pizza-spin 3s linear infinite;
+    border-radius: 100%;
+  }
+ 
+ 

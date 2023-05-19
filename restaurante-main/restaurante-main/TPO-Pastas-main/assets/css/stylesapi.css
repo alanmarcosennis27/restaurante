@@ -1,0 +1,17 @@
+#gallery {
+    background-color: beige;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .image {
+      margin: 10px;
+    }
+    
+    .image img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+    }
+    
